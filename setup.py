@@ -8,5 +8,5 @@ setup(
     author='Swaroop Veerabhadrappa',
     author_email='sbv5dn@virginia.edu',
     license='MIT',
-    packages=find_packages('booklover.py', exclude=["*test", "src"])
+    packages=find_packages(exclude=['src'], include=['booklover*'])
 )
